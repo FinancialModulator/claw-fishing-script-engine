@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04121c"/>
+      <stop offset="50%" stop-color="#082436"/>
+      <stop offset="100%" stop-color="#03141f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#1fa2ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1fa2ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <g opacity="0.12" stroke="#7fdcff" stroke-width="1.5" fill="none">
+    <path d="M60,300 Q200,240 340,300 T620,300 T900,300 T1180,300"/>
+    <path d="M60,320 Q200,270 340,320 T620,320 T900,320 T1180,320"/>
+  </g>
+
+  <g opacity="0.15" fill="#7fdcff">
+    <circle cx="150" cy="70" r="4"/>
+    <circle cx="1050" cy="90" r="5"/>
+    <circle cx="980" cy="60" r="3"/>
+    <circle cx="220" cy="40" r="2.5"/>
+    <circle cx="900" cy="40" r="3.5"/>
+  </g>
+
+  <g opacity="0.1" stroke="#7fdcff" stroke-width="1">
+    <circle cx="600" cy="180" r="140" fill="none"/>
+    <circle cx="600" cy="180" r="200" fill="none"/>
+  </g>
+
+  <text x="600" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="60.0" fill="#ffffff" font-weight="600">
+    <tspan x="600" dy="0">Claw Fishing Script</tspan>
+  </text>
+
+  <text x="600" y="210" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Pluggable scripting engine for Claw Fishing Script devs — write, test, and swap</tspan>
+    <tspan x="600" dy="30">fishing logic modules without…</tspan>
+  </text>
+</svg>
